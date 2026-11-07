@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gnanasri - AI & Data Science student and aspiring Data Analyst portfolio">
+<title>Gnanasri | Data Analyst Portfolio</title>
+<style>
+:root{--bg:#07111f;--card:#0d1b2d;--text:#eef6ff;--muted:#9fb1c7;--accent:#45b7ff;--accent2:#7c6cff;--line:#1d3048}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:linear-gradient(135deg,#06101d,#0a1728 55%,#101633);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}.logo span{color:var(--accent)}
+.links{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.links a:hover{color:var(--accent)}
+.container{max-width:1100px;margin:auto;padding:0 22px}
+.hero{min-height:88vh;display:grid;place-items:center;padding:80px 0}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:55px;align-items:center}
+.badge{display:inline-block;padding:7px 13px;border:1px solid #254461;border-radius:999px;color:#a9dfff;background:#0b2135;margin-bottom:18px;font-size:13px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin-bottom:18px}
+.gradient{background:linear-gradient(90deg,var(--accent),#9b8cff);-webkit-background-clip:text;color:transparent}
+.hero p{font-size:18px;color:var(--muted);max-width:700px}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 18px;border-radius:10px;border:1px solid #2a4966;font-weight:700;transition:.2s}
+.primary{background:var(--accent);color:#04101b;border-color:var(--accent)}
+.btn:hover{transform:translateY(-2px)}
+.visual{height:330px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#0e2138,#111a34);display:flex;align-items:end;gap:16px;padding:35px;box-shadow:0 20px 70px #0005}
+.bar{flex:1;border-radius:8px 8px 2px 2px;background:linear-gradient(#45b7ff,#756cff);animation:rise 1.2s ease}
+.b1{height:35%}.b2{height:55%}.b3{height:72%}.b4{height:48%}.b5{height:88%}
+@keyframes rise{from{height:5%}to{}}
+section{padding:85px 0}
+.section-title{font-size:34px;margin-bottom:12px}.section-sub{color:var(--muted);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:rgba(13,27,45,.8);border:1px solid var(--line);border-radius:18px;padding:25px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:#356080}
+.card h3{margin-bottom:9px}.card p,.card li{color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.tag{font-size:12px;padding:5px 9px;background:#102a42;border:1px solid #254461;border-radius:999px;color:#b9ddf7}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.skill{padding:18px;border:1px solid var(--line);border-radius:14px;background:#0b192a;text-align:center}
+.timeline{border-left:2px solid #29445e;padding-left:25px}.timeline .card{margin-bottom:22px}
+.date{color:var(--accent);font-size:13px;font-weight:700;margin-bottom:5px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-align:center}
+@media(max-width:800px){.hero-grid,.contact{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.links{display:none}.hero{min-height:auto;padding:70px 0}}
+@media(max-width:450px){.skills{grid-template-columns:1fr}h1{font-size:44px}}
+</style>
+</head>
+<body>
+<nav><div class="nav"><div class="logo">Gna<span>nasri</span></div><div class="links">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<header class="hero"><div class="container hero-grid">
+<div>
+<div class="badge">Final-Year B.Tech • Artificial Intelligence & Data Science</div>
+<h1>Hi, I'm <span class="gradient">Gnanasri.</span></h1>
+<h2>AI & Data Science Student | Aspiring Data Analyst</h2>
+<p>Motivated and detail-oriented final-year student with hands-on experience in Python, SQL, Excel, Power BI, Tableau, Machine Learning, data analysis and visualization.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="#contact">Let's Connect</a></div>
+</div>
+<div class="visual" aria-label="Data visualization graphic"><div class="bar b1"></div><div class="bar b2"></div><div class="bar b3"></div><div class="bar b4"></div><div class="bar b5"></div></div>
+</div></header>
+
+<main class="container">
+<section id="about"><h2 class="section-title">About Me</h2><p class="section-sub">Turning data into useful insights and continuously building practical skills.</p>
+<div class="card"><p>I am a final-year B.Tech student in Artificial Intelligence and Data Science at GRT Institute of Engineering and Technology. I have a strong foundation in Python, SQL, Machine Learning, Data Analysis and Data Visualization, with hands-on experience through internships and academic projects. My career goal is to start as a Data Analyst and contribute to data-driven business decisions.</p></div></section>
+
+<section id="skills"><h2 class="section-title">Skills</h2><p class="section-sub">Tools and technologies I work with.</p>
+<div class="skills">
+<div class="skill">Python</div><div class="skill">SQL</div><div class="skill">Power BI</div><div class="skill">Excel</div>
+<div class="skill">Tableau</div><div class="skill">Machine Learning</div><div class="skill">Pandas / NumPy</div><div class="skill">Statistics</div>
+<div class="skill">Matplotlib</div><div class="skill">Seaborn</div><div class="skill">Scikit-learn</div><div class="skill">EDA</div>
+</div></section>
+
+<section id="projects"><h2 class="section-title">Featured Projects</h2><p class="section-sub">Selected data and machine-learning projects.</p>
+<div class="grid">
+<article class="card"><h3>Amazon Prime Video Power BI Dashboard</h3><p>Interactive dashboard analyzing content across genres, ratings, countries, release years and directors.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">Power Query</span><span class="tag">Excel</span><span class="tag">Data Visualization</span></div></article>
+<article class="card"><h3>Credit Card Fraud Detection</h3><p>Machine learning project focused on identifying fraudulent transactions using preprocessing, exploratory analysis, classification and model evaluation.</p><div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Scikit-learn</span></div></article>
+<article class="card"><h3>More Projects</h3><p>Add future Python, SQL, Excel, Power BI and analytics projects here as you build them.</p><div class="tags"><span class="tag">Coming Soon</span></div></article>
+</div></section>
+
+<section id="experience"><h2 class="section-title">Experience</h2><p class="section-sub">Internship experience in data science and AI.</p>
+<div class="timeline">
+<div class="card"><div class="date">June 2025 – July 2025</div><h3>Data Science Intern</h3><ul><li>Worked on data collection, cleaning and preprocessing using Python and SQL.</li><li>Performed EDA to identify trends and insights.</li><li>Created dashboards and visualizations using Power BI and Excel.</li><li>Assisted in building and evaluating machine learning models.</li></ul></div>
+<div class="card"><div class="date">June 2026 – July 2026</div><h3>AI & Data Science Intern</h3><p>Smart Entry IT Infrastructure / Bics Global</p><ul><li>Built and tested machine learning models using Python and Scikit-learn.</li><li>Performed data cleaning, preprocessing and EDA.</li><li>Used SQL to extract and analyze data.</li><li>Created Power BI and Excel visualizations and dashboards.</li></ul></div>
+</div></section>
+
+<section id="certifications"><h2 class="section-title">Education & Certifications</h2><div class="grid">
+<div class="card"><h3>GRT Institute of Engineering and Technology</h3><p>B.Tech — Artificial Intelligence & Data Science</p><p>September 2023 – Present • Final Year</p></div>
+<div class="card"><h3>Certifications</h3><ul><li>Introduction to Artificial Intelligence — Simplilearn SkillUp</li><li>Introduction to Generative AI — Google Cloud via Simplilearn SkillUp</li><li>MongoDB Campus Student Summit 2026</li><li>DataMites — Data Science & AI Workshop</li><li>Aero Knotz — Wings of Innovation (Drones Workshop)</li></ul></div>
+</div></section>
+
+<section id="contact"><h2 class="section-title">Let's Connect</h2><p class="section-sub">I'm open to Data Analyst opportunities, internships and professional connections.</p>
+<div class="contact"><div class="card"><h3>Contact</h3><p>Email: <a href="mailto:gnanasriramesh06@gmail.com">gnanasriramesh06@gmail.com</a></p><p>Phone: <a href="tel:+919080953426">+91 9080953426</a></p></div>
+<div class="card"><h3>Professional Links</h3><p>Add your <a href="#" onclick="alert('Replace this # with your LinkedIn URL.');return false;">LinkedIn</a> and <a href="#" onclick="alert('Replace this # with your GitHub URL.');return false;">GitHub</a> links here.</p></div></div>
+</section>
+</main>
+<footer>© 2026 Gnanasri • Built with passion for Data & Technology</footer>
+</body>
+</html>
